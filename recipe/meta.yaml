@@ -1,13 +1,13 @@
 {% set name = "treeinterpreter" %}
-{% set version = "0.2.2" %}
+{% set version = "0.2.3" %}
 
 package:
   name: {{ name|lower }}
   version: {{ version }}
 
 source:
-  url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/{{ name }}-{{ version }}.zip
-  sha256: 86266c43a82acc79ae7bf1bac5f8c30990e6492487a9727811346dd1f62aa074
+  url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/{{ name }}-{{ version }}.tar.gz
+  sha256: da5c24f802f7d072bc457b6e4b289d5ee41961ce33437e8dc439a2cfd9c6d994
 
 build:
   number: 0
